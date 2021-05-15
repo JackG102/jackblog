@@ -22,3 +22,6 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore db dumps created by Platform CLI
+*--dump.sql
