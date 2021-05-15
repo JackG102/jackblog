@@ -43,6 +43,28 @@ Follow [Docksal environment setup instructions](https://docs.docksal.io/getting-
 
 When the automated install is complete the command line output will display the admin username and password.
 
+## Download production database to local environment
+
+1. Configure Platform CLI
+
+2. Fetch production database
+    
+    ```
+    platform db:dump
+    ```
+
+3. Import database using Docksal
+
+    ```
+    fin db import <name_of_db_import>
+    ```
+
+3. Clear the cache
+
+    ```
+    fin drush cr
+    ```
+
 
 ## More automation with 'fin init'
 
