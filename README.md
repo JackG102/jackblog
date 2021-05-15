@@ -65,6 +65,17 @@ When the automated install is complete the command line output will display the 
     fin drush cr
     ```
 
+## Behat 
+
+- To run Behat tests and see the results, type:
+    ```
+    fin behat
+    ```
+- To find the code options/syntax available to you to write Behat tests, type:
+    ```
+    /vendor/bin/behat -dl
+    ```
+- To add in Behat scenarios, create files in the 'features' folder located in the project's root directory.  The file should follow this naming structure: "name_of_feature.feature"
 
 ## More automation with 'fin init'
 
