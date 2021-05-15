@@ -10,6 +10,6 @@ default:
   extensions:
     Drupal\MinkExtension:
       goutte: ~
-      base_url: http://jackblog.yml  # Replace with your site's URL
+      base_url: http://jackblog.docksal  # Replace with your site's URL
     Drupal\DrupalExtension:
       blackbox: ~
