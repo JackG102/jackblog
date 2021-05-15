@@ -1,0 +1,11 @@
+default:
+  suites:
+    default:
+      contexts:
+        - Drupal\DrupalExtension\Context\DrupalContext
+  extensions:
+    Drupal\MinkExtension:
+      goutte: ~
+      base_url: http://jackblog.yml  # Replace with your site's URL
+    Drupal\DrupalExtension:
+      blackbox: ~
