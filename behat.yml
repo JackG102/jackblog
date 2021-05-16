@@ -1,4 +1,4 @@
-default:
+docker:
   suites:
     default:
       contexts:
@@ -6,10 +6,12 @@ default:
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\MessageContext
-        - Drupal\DrupalExtension\Context\DrushContext
   extensions:
     Drupal\MinkExtension:
       goutte: ~
       base_url: http://jackblog.docksal  # Replace with your site's URL
     Drupal\DrupalExtension:
       blackbox: ~
+      api_driver: 'drupal' 
+      drupal: 
+        drupal_root: 'web' 

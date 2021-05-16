@@ -1,0 +1,2 @@
+cd $PROJECT_ROOT
+fin exec "vendor/bin/behat -p docker $params -dl"
