@@ -73,7 +73,7 @@ When the automated install is complete the command line output will display the 
     ```
 - To find the code options/syntax available to you to write Behat tests, type:
     ```
-    /vendor/bin/behat -dl
+    fin behat-list
     ```
 - To add in Behat scenarios, create files in the 'features' folder located in the project's root directory.  The file should follow this naming structure: "name_of_feature.feature"
 
