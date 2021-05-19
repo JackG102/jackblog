@@ -38,6 +38,7 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
+            - CodeSnippet
         -
           name: Tools
           items:
@@ -45,11 +46,41 @@ settings:
   plugins:
     stylescombo:
       styles: ''
+    language:
+      language_list: un
+    codesnippet:
+      highlight_style: xcode
+      highlight_languages:
+        css: css
+        diff: diff
+        html: html
+        javascript: javascript
+        json: json
+        markdown: markdown
+        php: php
+        sql: sql
+        xml: xml
+        apache: 0
+        bash: 0
+        cs: 0
+        cpp: 0
+        coffeescript: 0
+        http: 0
+        ini: 0
+        java: 0
+        makefile: 0
+        nginx: 0
+        objectivec: 0
+        perl: 0
+        python: 0
+        ruby: 0
+        vbscript: 0
+        xhtml: 0
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null
