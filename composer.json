@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.0",
         "drupal/codesnippet": "^1.7",
         "drupal/core-composer-scaffold": "^9",
@@ -64,6 +65,8 @@
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ]
+        },
+        "patches": {
         },
         "drupal-core-project-message": {
             "include-keys": [
